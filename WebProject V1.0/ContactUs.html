@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="Contact.css" />
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
+</head>
+<body>
+    <div class="container" id="background">
+        <form>
+            <p style="position:relative;border-bottom:3px solid black">ContactUs</p>
+            <input required type="text" id="fname" name="fname" placeholder="Firstname">
+            <input required type="text" id="lname" name="lname" placeholder="LastName">
+            <br />
+
+            <input required type="email" id="email" name="email" placeholder="E-mail..">
+            <br />
+            <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+            <br />
+            <input id="submit-btn" type="submit" value="Submit">
+
+        </form>
+
+    </div>
+    <div class="adminOptions">
+        <label for="background-color-editor">>Background-Color Editor</label>
+        <input name="background-color-editor" type="color" class="colorEditor" oninput="document.getElementById('background').style.backgroundColor = value" />
+        <label for="Body-Color-Editor">>Body Color Editor</label> 
+        <input name="Body-Color-Editor" type="color" class="colorEditor" oninput="document.body.style.backgroundColor = value" />
+        
+    </div>
+</body>
+</html>

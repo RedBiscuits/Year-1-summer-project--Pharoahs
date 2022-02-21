@@ -1,0 +1,7 @@
+C:\Users\Joo\source\repos\WebProject V1.0\WebProject V1.0\bin\TypeScriptHTMLApp1.dll.config
+C:\Users\Joo\source\repos\WebProject V1.0\WebProject V1.0\bin\TypeScriptHTMLApp1.dll
+C:\Users\Joo\source\repos\WebProject V1.0\WebProject V1.0\bin\TypeScriptHTMLApp1.pdb
+C:\Users\Joo\source\repos\WebProject V1.0\WebProject V1.0\obj\Debug\WebProject V1.0.csproj.CoreCompileInputs.cache
+C:\Users\Joo\source\repos\WebProject V1.0\WebProject V1.0\obj\Debug\TypeScriptHTMLApp1.dll
+C:\Users\Joo\source\repos\WebProject V1.0\WebProject V1.0\obj\Debug\TypeScriptHTMLApp1.pdb
+C:\Users\Joo\source\repos\WebProject V1.0\WebProject V1.0\obj\Debug\WebProject V1.0.csproj.AssemblyReference.cache

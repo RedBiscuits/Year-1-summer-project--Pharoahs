@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Ancient Egypt</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon"/>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="navbar">
+            <nav>
+                <a href="#">LOGIN</a>
+                <a  onclick="contact()">CONTACT US</a>
+                <a  onclick="FCISASU()">FCIS ASU</a>
+            </nav>
+            <div class="dropdown" style="float:right;">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <p style="color:black;display:flex;margin-left:9px;border-top:2px solid red">Admin mode</p>
+                   <div class="switch-container">
+                       <label class="switch">
+                            <input type="checkbox" name="admin" id="admin-switch">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Egyptian Sites</p>
+               <iframe src="imageslider.html" class="imgslider" style="height:360px;width:500px;position:relative;border:none;border-radius:12px;">
+               </iframe>
+                <button type="button"class="explore">Explore</button>
+            </div>
+            <div class="col">
+                <div class="cards card1">
+                    <h5> Kings</h5>
+                    <p class="cardptxt">Egyptian kings varried over time from strong to stronger here is a breif description</p>
+                </div>
+                <div class="cards card2">
+                    <h5> Monuments</h5>
+                    <p class="cardptxt">Egyptian kings varried over time from strong to stronger here is a breif description</p>
+                </div>
+                <div class="cards card3">
+                    <h5> Mythology</h5>
+                    <p class="cardptxt">Egyptian kings varried over time from strong to stronger here is a breif description</p>
+                </div>
+                <div class="cards card4">
+                    <h5> Religion</h5>
+                    <p class="cardptxt">Egyptian kings varried over time from strong to stronger here is a breif description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </body>
+</html>
